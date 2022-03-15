@@ -1,0 +1,63 @@
+.textareaExpander {
+    z-index: 10054;
+    width: 100%;
+    resize: none !important;
+    line-height: 0;
+    border-radius: 3px;
+    background-color: rgba(0, 0, 0, .5);
+}
+
+.textareaExpander textarea {
+    width: 100% !important;
+    resize: none;
+}
+
+.textareaExpander textarea:hover {
+    background-color: #fff !important;
+}
+
+.textareaExpander,
+.textareaExpander a {
+    display: inline-block;
+}
+
+.textareaExpander a {
+    float: right;
+    padding: 3px;
+    margin-left: -22px;
+}
+
+.textareaExpander a i {
+    color: rgb(133, 133, 133);
+}
+
+.taExpanded {
+    z-index: 10054;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    border-radius: 0;
+}
+
+.taExpanded textarea {
+    height: 80vh;
+    width: 80vw !important;
+    margin-top: 10vh;
+    margin-left: 10vw;
+}
+
+.textareaExpanderLabel {
+    display: none;
+    position: absolute;
+    width: 100%;
+    margin-top: 1vh;
+    font-size: 24pt;
+    color: #fff;
+    text-align: center;
+}
+
+.taExpanded .textareaExpanderLabel {
+    display: inline-block;
+}
