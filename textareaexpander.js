@@ -17,7 +17,7 @@ const textareaExpanderFunctions = () => {
         label.classList.add("textareaExpanderLabel")
         label.innerText = "Click outside to close"
         textarealist[i].parentElement.insertBefore(div, textarealist[i])
-        div.innerHTML = "<a id='expanderButton" + i + "'><i class='bootstrapIcons bi-arrows-fullscreen'></i></a>"
+        div.innerHTML = "<a id='expanderButton" + i + "'><i class='bi bi-arrows-fullscreen'></i></a>"
         div.appendChild(label)
         div.appendChild(textarealist[i])
         document.getElementById("expanderButton" + i).addEventListener("click", function (e) {
